@@ -9,9 +9,11 @@ export default function Home() {
     <main>
       <Header />
       <ResultsProvider>
-        <div className="grid grid-cols-1 sm:grid-cols-[1fr,1fr] gap-4">
-          <ChannelInput />
-          <Results />
+        <div className="mx-auto lg:w-[75%]">
+          <div className="grid grid-cols-1 sm:grid-cols-[1fr,1fr] gap-4 ">
+            <ChannelInput />
+            <Results />
+          </div>
         </div>
       </ResultsProvider>
     </main>

@@ -49,9 +49,9 @@ const ChannelInput: React.FC = () => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center h-screen">
+        <div className="flex flex-col items-center justify-center my-24">
             <label className="mb-4 text-lg font-bold">Channel Input</label>
-            <div className="flex flex-col items-center justify-center">
+            <div className="flex flex-col  mx-4">
 
                 <h2 className="mb-2 text-md ">Flow Rate</h2>
                 <div className='flex items-center mb-4'>
